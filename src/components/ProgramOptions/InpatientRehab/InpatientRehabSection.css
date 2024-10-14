@@ -1,0 +1,103 @@
+/* AlcoholHeroinRehab.css */
+.inpatientRehab-container {
+    width: 100%;
+
+  }
+  
+  .intro-section {
+    padding: 2rem 1rem;
+    background-color: #1b2f4d;
+
+  }
+
+  .intro-section h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: normal;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .intro-section p {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    line-height: normal;
+  }
+  
+  .inpatientRehab-program {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 1rem;
+  }
+
+  
+  .inpatientRehab-program-image {
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+    }  
+
+    .inpatientRehab-program-image img {
+        width: 100%;
+        display: none;
+    }
+  
+    .imageOne-bg {
+        background-image: url('../../../assets/therapy-session-young-man.webp');
+    }
+
+    .imageTwo-bg {
+        background-image: url('../../../assets/woman-psychologist-in-glasses.webp');
+    }
+
+
+  .inpatientRehab-program-content {
+    width: 100%;
+    margin: auto;
+  }
+
+  .inpatientRehab-program-content ul {
+    list-style-type: disc;
+  }
+  
+  .inpatientRehab-program-content h2 {
+    font-size: 1.5rem;
+    color: #2bbb43;
+    margin-bottom: 10px;
+  }
+  
+  .inpatientRehab-program-content p {
+    font-size: 1rem;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+  
+
+  @media screen and (max-width:940px) {
+    .inpatientRehab-program-content h2 {
+        font-size: 1.5rem;
+      }
+
+
+    .inpatientRehab-program {
+        flex-wrap: wrap;
+        padding: 1rem;
+      }
+
+    .inpatientRehab-program-image img {
+        display: block;
+        border-radius: 10px;
+    }
+
+      .flex-reverse {
+        flex-wrap: wrap-reverse;
+      }
+      
+      .inpatientRehab-program-content h2 {
+        text-align: center;
+      }
+      
+  }

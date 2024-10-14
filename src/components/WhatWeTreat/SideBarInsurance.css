@@ -1,0 +1,32 @@
+
+.sidebar-insurance {
+    padding: 3rem 1rem;
+    border: 1px solid #cd8c636c;
+    margin-top: 2rem;
+}
+
+.sidebar-insurance h1 {
+    font-size: 1.3rem;
+    line-height: normal;
+    text-align: center;
+}
+
+.sidebar-insurance p {
+    font-size: 16px;
+    text-align: center;
+    line-height: normal;
+}
+
+.sidebar-insurance-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.sidebar-insurance-item {
+    width: 25%;
+}
+.sidebar-insurance-item img {
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+.accordionFlex {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.accordionProps {
+    margin: auto;
+}
+
+.accordionProps h1 {
+    font-size: 1.5rem;
+    line-height: normal;
+}
+
+.accordionRight {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+}
+
+.accordionRight img {
+    width: 100%;
+    display: block;
+}
+
+.accordionProps {
+    width: 100%;
+}
+
+@media screen and (max-width: 940px) {
+    .accordionFlex {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .accordionProps h1 {
+        font-size: 1.2rem;
+    }
+    
+}

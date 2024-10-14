@@ -1,0 +1,144 @@
+/* AlcoholHeroinRehab.css */
+.xanaxRehab-container {
+    width: 100%;
+
+  }
+  
+  .intro-section {
+    padding: 2rem 1rem;
+    background-color: #1b2f4d;
+
+  }
+
+  .intro-section h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: normal;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .intro-section p {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    line-height: normal;
+  }
+  
+  .xanaxRehab-program {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3rem 1rem;
+  }
+
+  
+  .xanaxRehab-program-image {
+        width: 100%;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+    }  
+
+
+  
+    .xanaxRehabOne-bg {
+        background-image: url('../../../assets/xanax_section_image1.webp');
+    }
+
+    .xanaxRehabTwo-bg {
+        background-image: url('../../../assets/xanax_section_image2.webp');
+    }
+
+
+    .xanaxRehab-program-image img {
+      width: 100%;
+      display: none;
+  }
+
+  .xanaxRehab-program-content {
+    width: 100%;
+    margin: auto;
+  }
+
+  .xanaxRehab-program-content ul {
+    list-style-type: disc;
+  }
+  
+  .xanaxRehab-program-content h2 {
+    font-size: 1.5rem;
+    color: #2bbb43;
+    margin-bottom: 10px;
+  }
+
+  .xanaxRehabSection {
+    padding: 1rem;
+  }
+
+  .xanaxRehabSection h2 {
+    font-size: 1.5rem;
+    color: #2bbb43;
+    margin-bottom: 10px;
+  }
+
+  .xanaxRehabSection p {
+    font-size: 1rem;
+  }
+
+  .xanaxRehabSection ul li {
+    list-style: disc;
+  }
+  
+  .xanaxRehab-program-content p {
+    font-size: 1rem;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+
+  .section-footer {
+    padding: 1rem;
+  }
+  .section-footer p {
+    line-height: normal;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+
+  @media screen and (max-width:940px) {
+    .xanaxRehab-program-content h2 {
+        font-size: 1.5rem;
+      }
+
+
+    .xanaxRehab-program {
+        flex-wrap: wrap;
+        padding: 1rem;
+      }
+
+    .xanaxRehab-program-image img {
+        display: block;
+        border-radius: 10px;
+    }
+
+      .flex-reverse {
+        flex-wrap: wrap-reverse;
+      }
+      
+      .xanaxRehab-program-content h2 {
+        text-align: center;
+      }
+      
+  }
+
+    
+  @media screen and (max-width:600px) {
+    .xanaxRehab-program-content h2 {
+      font-size: 1.3rem;
+    }
+
+    .xanaxRehabSection h2 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+  }

@@ -1,0 +1,77 @@
+.mat-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.mat-intro h1 {
+  font-size: 1.5rem;
+  color: #2e7d32;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: normal;
+}
+
+.mat-intro p {
+  font-size: 16px;
+  line-height: normal;
+}
+
+.mat-content h2,
+.mat-benefits h2,
+.mat-therapy h2,
+.mat-who-is-it-for h2,
+.mat-cta h2 {
+  font-size: 1.5rem;
+  color: #388e3c;
+  margin-bottom: 15px;
+  line-height: normal;
+
+}
+
+.mat-content p,
+.mat-therapy p,
+.mat-who-is-it-for p,
+.mat-cta p {
+  font-size: 1rem;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.mat-benefits ul,
+.mat-who-is-it-for ul {
+  list-style-type: disc;
+
+}
+
+.mat-benefits ul li,
+.mat-who-is-it-for ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.mat-cta {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mat-intro h1 {
+    font-size: 2rem;
+  }
+
+  .mat-intro p,
+  .mat-content p,
+  .mat-therapy p,
+  .mat-who-is-it-for p,
+  .mat-cta p {
+    font-size: 1rem;
+  }
+
+  .mat-intro h1 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+}

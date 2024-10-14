@@ -1,0 +1,93 @@
+
+.cocaine-hero {
+    background-image: url('../../assets/cocaine_hero.webp');
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center/center;
+    position: relative;
+}
+
+.cocaine-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.904);
+    opacity: .6;
+    /* !!! */
+    z-index: 1;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    z-index: 2;
+}
+
+.image-caption h1 {
+    color: white;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cocaine-flex {
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 1rem;
+}
+
+.cocaine-menu {
+    width: 50%;
+}
+
+.cocaine-caption {
+    width: 100%;
+    margin: auto;
+}
+
+
+.cocaine-caption h1 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.cocaine-caption h2 {
+    font-size: 1.2rem;
+    padding: .5rem 0;
+}
+
+.cocaine-caption p {
+    font-size: 1rem;
+    padding: 0;
+    line-height: normal;
+}
+
+.cocaine-caption ul {
+    list-style: disc;
+}
+
+.cocaine-image {
+    width: 100%;
+}
+
+.cocaine-image img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 940px) {
+    .cocaine-flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    .cocaine-menu {
+        width: 100%;
+    }
+}
+

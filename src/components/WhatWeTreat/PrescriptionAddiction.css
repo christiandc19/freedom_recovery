@@ -1,0 +1,93 @@
+
+.prescription-hero {
+    background-image: url('../../assets/prescription_hero.webp');
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.prescription-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.904);
+    opacity: .6;
+    /* !!! */
+    z-index: 1;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    z-index: 2;
+}
+
+.image-caption h1 {
+    color: white;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.prescription-flex {
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 1rem;
+}
+
+.prescription-menu {
+    width: 50%;
+}
+
+.prescription-caption {
+    width: 100%;
+    margin: auto;
+}
+
+
+.prescription-caption h1 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.prescription-caption h2 {
+    font-size: 1.2rem;
+    padding: .5rem 0;
+}
+
+.prescription-caption p {
+    font-size: 1rem;
+    padding: 0;
+    line-height: normal;
+}
+
+.prescription-caption ul {
+    list-style: disc;
+}
+
+.prescription-image {
+    width: 100%;
+}
+
+.prescription-image img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 940px) {
+    .prescription-flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    .prescription-menu {
+        width: 100%;
+    }
+}
+

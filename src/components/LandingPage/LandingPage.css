@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+@font-face {
+  font-family: 'Wildest';
+  src: url('../../assets/fonts/Wildest.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh; /* Ensures it takes up the full viewport height */
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 1; /* Ensures it stays above the background but doesn't interfere with the footer */
+}
+
+.hero:before {
+  content: '';
+  position: absolute;
+  background: url('../../assets/hero_image.webp') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1; /* Behind everything in the hero */
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.295); /* Black overlay */
+  z-index: 0; /* Between the image and content */
+}
+
+
+.hero .hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+
+.hero .content {
+  width: 70%;
+  padding: 5rem 1rem 0rem 1rem;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    color: white;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    line-height: normal;
+  }
+
+.hero p {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:940px) {
+
+  .hero .content {
+    width: 100%;
+    top: 50%;
+    left: 0%;
+  }
+
+    .hero h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .hero h2 {
+      text-align: center;
+  }
+
+
+    .hero p {
+      font-size: 1rem;
+      color: rgb(255, 255, 255);
+  }
+  
+
+}

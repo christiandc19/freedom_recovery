@@ -1,0 +1,73 @@
+.dual-diagnosis-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dual-diagnosis-container h1 {
+  font-size: 1.5rem;
+  color: #2e7d32;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dual-diagnosis-container p {
+  font-size: 16px;
+  line-height: normal;
+}
+
+.dual-diagnosis-container h2 {
+  font-size: 1.5rem;
+  color: #388e3c;
+  margin-bottom: 15px;
+}
+
+.intro-text, p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.treatment-approach ul{
+  list-style-type: disc;
+}
+
+.treatment-approach li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.call-to-action {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #388e3c;
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.5rem;
+  }
+
+  .cta-button {
+      font-size: 1rem;
+  }
+}

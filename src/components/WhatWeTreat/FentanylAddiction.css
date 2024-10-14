@@ -1,0 +1,93 @@
+
+.fentanyl-hero {
+    background-image: url('../../assets/fentanyl_hero.webp');
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.fentanyl-hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.904);
+    opacity: .6;
+    /* !!! */
+    z-index: 1;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    z-index: 2;
+}
+
+.image-caption h1 {
+    color: white;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.fentanyl-flex {
+    display: flex;
+    gap: 1rem;
+    padding: 3rem 1rem;
+}
+
+.fentanyl-menu {
+    width: 50%;
+}
+
+.fentanyl-caption {
+    width: 100%;
+    margin: auto;
+}
+
+
+.fentanyl-caption h1 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.fentanyl-caption h2 {
+    font-size: 1.2rem;
+    padding: .5rem 0;
+}
+
+.fentanyl-caption p {
+    font-size: 1rem;
+    padding: 0;
+    line-height: normal;
+}
+
+.fentanyl-caption ul {
+    list-style: disc;
+}
+
+.fentanyl-image {
+    width: 100%;
+}
+
+.fentanyl-image img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 940px) {
+    .fentanyl-flex {
+        flex-wrap: wrap-reverse;
+    }
+
+    .fentanyl-menu {
+        width: 100%;
+    }
+}
+
