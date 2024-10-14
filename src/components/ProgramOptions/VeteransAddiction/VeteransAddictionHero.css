@@ -42,7 +42,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 10rem 1rem 1rem 1rem;
   text-align: center;
   z-index: 1; /* Ensures it stays above the background but doesn't interfere with the footer */
 }
@@ -55,19 +55,13 @@
 
 
 .veteransAddictionHero h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: rgb(255, 255, 255);
     line-height: normal;
     font-family: 'Wildest', sans-serif;
     text-align: left;
 }
 
-.veteransAddictionHero h2 {
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-family: 'Wildest', sans-serif;
-}
 
 
 
@@ -75,16 +69,11 @@
 
 @media screen and (max-width:940px) {
 
-  .veteransAddictionHeroContent {
-    width: 100%;
-    top: 50%;
-    left: 0%;
-  }
 
     .veteransAddictionHero h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: center;
-        line-height: 3.5rem;
+        line-height: 2.5rem;
     }
     .veteransAddictionHero h2 {
       text-align: center;

@@ -42,7 +42,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 10rem 1rem 1rem 1rem;
   text-align: center;
   z-index: 1; /* Ensures it stays above the background but doesn't interfere with the footer */
 }
@@ -62,12 +62,7 @@
     text-align: left;
 }
 
-.dualDiagnosis h2 {
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-family: 'Wildest', sans-serif;
-}
+
 
 
 
@@ -82,14 +77,11 @@
   }
 
     .dualDiagnosis h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         text-align: center;
         line-height: 3.5rem;
     }
-    .dualDiagnosis h2 {
-      text-align: center;
-      font-size: 1.5rem;
-  }
+
 
   
 
