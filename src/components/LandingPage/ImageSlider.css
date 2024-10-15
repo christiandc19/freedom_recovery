@@ -98,6 +98,10 @@
     .slider-item {
       min-width: 100%; /* Show 1 image at a time on mobile */
     }
+
+    .slider-item {
+      border-right: none;
+    }
   
 
   }

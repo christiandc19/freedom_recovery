@@ -1,71 +1,94 @@
 import React from 'react';
 import './HeroinProgram.css';
-
+import SideBarInsurance from '../../WhatWeTreat/SideBarInsurance';
+import HeroinImage from '../../../assets/depressed_man.webp'; // Replace with actual image path
+import RehabAccordionMenu from '../../Addiction/RehabAccordionMenu';
+import ContactForm from '../../LandingPage/ContactForm';
 
 const HeroinProgram = () => {
   return (
-    <div className="treatment-container ">
-      <div className='treatment-intro'>
-      <h1>Heroin Treatment Program</h1>
-      <p>
-        Drug addiction is a complex disease that affects the brain and behavior. Treatment typically involves a combination of therapies, medications, and lifestyle changes. There are many resources available to help those struggling with addiction.
-      </p>
-      </div>
-
-
-      <div className="treatment-sections container">
-
-{/* Understanding Addiction */}
-
-        <div className="HeroinProgramSection">
-            <div className='HeroinProgramSectionCaption'>
-                <h2>Understanding Heroin Addiction</h2>
-                <p>
-                Heroin addiction is a devastating and complex disease that affects both the mind and body. At Antioch Rehab, we understand the toll this powerful substance can take on individuals and their families. Heroin, an opioid derived from morphine, binds to receptors in the brain, creating intense euphoria. However, it quickly leads to physical dependence, with severe withdrawal symptoms and dangerous health risks.
-                </p>
-                <h2>Signs of Heroin Addiction:</h2>
-                <p>
-                  <ul>
-                    <li>Intense cravings</li>
-                    <li>Withdrawal from social activities</li>
-                    <li>Weight loss and poor hygiene</li>
-                    <li>Drowsiness or "nodding off"</li>
-                    <li>Track marks from injections</li>
-                  </ul>
-                </p>
-                <p>Treatment Options at Antioch Rehab: Our comprehensive heroin addiction treatment program is designed to support individuals through every step of recovery. We offer medically supervised detox to safely manage withdrawal symptoms, reducing the discomfort associated with quitting heroin. Our therapeutic approach combines evidence-based practices, such as cognitive behavioral therapy (CBT), group counseling, and individualized treatment plans, to address the root causes of addiction and promote lasting recovery.</p>
-                <p>Medication-Assisted Treatment (MAT): To support long-term recovery, Antioch Rehab also offers Medication-Assisted Treatment (MAT), utilizing medications like methadone, buprenorphine, and naltrexone to reduce cravings and prevent relapse. MAT is integrated with counseling and behavioral therapies, ensuring a balanced and effective treatment approach.</p>
+    <>
+      <div className='heroin-program'>
+        <div className='heroin-program-content'>
+          <div className='heroin-program-hero'>
+            <div className='image-caption'>
+              <h1>Heroin Addiction Program</h1>
+            </div>
           </div>
 
-          <div className='HeroinProgramSectionImage'>
+          <div className='heroin-program-flex'>
+            <div className='heroin-program-menu'>
+              <RehabAccordionMenu />
+              <SideBarInsurance />
+            </div>
+
+            <div className='heroin-program-caption'>
+              <h1>Understanding Heroin Addiction</h1>
+              <h2>What is Heroin Addiction?</h2>
+              <p>Heroin addiction is a chronic disease characterized by compulsive drug seeking and use, despite harmful consequences. Heroin, an opioid drug, can lead to physical dependence and serious health issues, impacting both mental and physical well-being.</p>
+
+              <h2>Signs and Symptoms of Heroin Addiction</h2>
+              <p>Common signs and symptoms of heroin addiction include:
+              <ul>
+                <li>Intense cravings for heroin.</li>
+                <li>Withdrawal symptoms when not using the drug.</li>
+                <li>Changes in behavior, including secrecy and withdrawal from loved ones.</li>
+                <li>Physical signs like drowsiness, constricted pupils, and needle marks.</li>
+                <li>Neglecting responsibilities at work, school, or home.</li>
+              </ul>
+              </p>
+
+              <h2>Causes of Heroin Addiction</h2>
+              <p>Several factors contribute to the development of heroin addiction:
+                <ol>
+                  <li>Genetics: A family history of addiction increases susceptibility.</li>
+                  <li>Environmental Factors: Exposure to drug use and peer pressure can lead to addiction.</li>
+                  <li>Mental Health: Co-occurring mental health disorders often drive individuals to use heroin as a form of self-medication.</li>
+                  <li>Previous Substance Use: Past misuse of prescription opioids can increase the risk of heroin addiction.</li>
+                </ol>
+              </p>
+
+              <div className='heroin-program-image'>
+                <img src={HeroinImage} alt='heroin-addiction' loading='lazy' />
+              </div>
+
+              <h2>Effects of Heroin Addiction</h2>
+              <p>Heroin addiction can have severe consequences:
+                <ul>
+                  <li>Health Issues: Long-term heroin use can lead to liver disease, heart infections, and respiratory problems.</li>
+                  <li>Mental Health Disorders: Addiction may exacerbate existing mental health conditions, leading to anxiety and depression.</li>
+                  <li>Social Consequences: Relationships can suffer due to secrecy and withdrawal from social activities.</li>
+                  <li>Legal and Financial Troubles: Engaging in illegal activities to obtain heroin can result in criminal charges and financial hardship.</li>
+                </ul>
+              </p>
+
+              <h2>Treatment for Heroin Addiction</h2>
+              <p>Treatment for heroin addiction typically includes:
+                <ol>
+                  <li>Detox: Medical supervision during detoxification is crucial to manage withdrawal symptoms safely.</li>
+                  <li>Medication-Assisted Treatment: Medications like methadone or buprenorphine help manage cravings and withdrawal.</li>
+                  <li>Behavioral Therapy: Cognitive Behavioral Therapy (CBT) and other therapies help address underlying issues and develop coping strategies.</li>
+                  <li>Support Groups: Groups like Narcotics Anonymous (NA) provide community support and encouragement in recovery.</li>
+                </ol>
+              </p>
+
+              <h2>Preventing Heroin Addiction</h2>
+              <p>Prevention strategies include:
+                <ul>
+                  <li>Education: Informing individuals about the risks of heroin use can reduce the likelihood of addiction.</li>
+                  <li>Mental Health Support: Addressing mental health issues early can prevent individuals from turning to heroin.</li>
+                  <li>Healthy Alternatives: Encouraging healthy coping mechanisms, such as exercise and mindfulness, can help individuals manage stress.</li>
+                </ul>
+              </p>
+
+              <h2>Conclusion: Hope and Recovery</h2>
+              <p>Recovery from heroin addiction is a challenging but achievable goal. With the right treatment and support, individuals can reclaim their lives and build a healthier future. If you or someone you know is struggling with heroin addiction, seek professional help immediately.</p>
+            </div>
           </div>
         </div>
-
-{/* Treatment Options */}
-
-
-<div className="HeroinProgramSection">
-
-            <div className='HeroinProgramSectionCaption'>
-                <h2>Side Effects of Heroin Use: Heroin use has severe and sometimes irreversible consequences, including:</h2>
-                <p>
-                  <ul>
-                    <li>Respiratory issues and risk of overdose</li>
-                    <li>Collapsed veins and infections from injection use</li>
-                    <li>Heart complications and increased risk of infectious diseases like HIV or hepatitis</li>
-                    <li>Cognitive decline and memory loss</li>
-                    <li>Severe gastrointestinal problems</li>
-                  </ul>
-                </p>
-                <p>A Path to Recovery Recovery from heroin addiction is possible, and Antioch Rehab is here to guide you through the process. Our compassionate team provides a safe, supportive environment where healing can begin. With the right tools, support, and treatment, a drug-free life is within reach.</p>
-                <h2>Support Systems</h2>
-                <p>Family, friends, and support groups play an important role in the recovery process. Having a strong support system can help individuals stay motivated and avoid relapse.</p>
-
-          
-          </div>
-        </div>
       </div>
-    </div>
+      <ContactForm />
+    </>
   );
 };
 

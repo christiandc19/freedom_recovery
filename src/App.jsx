@@ -13,8 +13,8 @@ import DualDiagnosisProgram from './components/ProgramOptions/DualDiagnosis/Dual
 import MATProgram from './components/ProgramOptions/MATProgram/MAT';
 import VeteransAddiction from './components/ProgramOptions/VeteransAddiction/VeteransAddictionHero';
 
-import DrugAddictionTreatment from './components/Addiction/DrugRehab/DrugAddictionTreatmentHero';
-import HeroinProgram from './components/Addiction/HeroinProgram/HeroinProgramHero';
+import DrugAddictionTreatment from './components/Addiction/DrugRehab/DrugAddiction';
+import HeroinProgram from './components/Addiction/HeroinProgram/HeroinProgram';
 import XanaxRehab from './components/Addiction/XanaxRehab/XanaxRehab';
 import AtivanRehab from './components/Addiction/AtivanRehab/AtivanRehab';
 

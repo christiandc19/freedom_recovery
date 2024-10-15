@@ -1,100 +1,99 @@
-.treatment-container {
-    margin: 0 auto;
-    border-radius: 8px;
-  }
-  
-
-  
-.treatment-intro {
-  background-color: #1b2f4d;
-  padding: 2rem 1rem;
+.heroin-program-hero {
+  background-image: url('../../../assets/heroin_addiction.webp'); /* Replace with actual image path */
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
-.treatment-intro h1 {
-  font-size: 1.5rem;
-  text-align: center;
-  line-height: normal;
+.heroin-program-hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.473);
+  opacity: .6;
+  z-index: 1;
+}
+
+.image-caption {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  z-index: 2;
+}
+
+.image-caption h1 {
   color: white;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.heroin-program-flex {
+  display: flex;
+  gap: 1rem;
+  padding: 3rem 1rem;
+}
+
+.heroin-program-menu {
+  width: 50%;
+}
+
+.heroin-program-caption {
+  width: 100%;
+  margin: auto;
+}
+
+.heroin-program-caption h1 {
+  font-size: 1.3rem;
   text-transform: uppercase;
 }
 
-  .treatment-intro p {
-    font-size: 1rem;
-    text-align: center;
-    color: white;
-  }
-  
-  .treatment-sections {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 2rem 0;
-  }
-  
-  .HeroinProgramSection {
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .HeroinProgramSection h2 {
-    font-size: 1.5rem;
-    color: #2980b9;
-    margin-bottom: 10px;
-  }
-  
-  .HeroinProgramSection p {
-    font-size: 1rem;
-    color: #7f8c8d;
-    line-height: 1.5;
+.heroin-program-caption h2 {
+  font-size: 1.2rem;
+  padding: .5rem 0;
+}
+
+.heroin-program-caption p {
+  font-size: 1rem;
+  padding: 0;
+  line-height: normal;
+}
+
+.heroin-program-caption ul {
+  list-style: disc;
+}
+
+.heroin-program-image {
+  width: 100%;
+}
+
+.heroin-program-image img {
+  width: 40%;
+}
+
+@media screen and (max-width: 940px) {
+  .heroin-program-flex {
+      flex-wrap: wrap-reverse;
   }
 
-  .HeroinProgramSection {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+  .heroin-program-menu {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-caption h1 {
+      font-size: 2rem;
+      line-height: normal;
   }
 
-  .HeroinProgramSectionCaption {
-    width: 100%;
-    margin: auto;
+  .heroin-program-image img {
+      width: 100%;
   }
-
-  .HeroinProgramSectionCaption ul li {
-    list-style-type: disc;
-  }
-
-  .HeroinProgramSectionImage {
-    width: 100%;
-    height: 100dvh;
-    position: relative;
-  }
-  
-  .HeroinProgramSectionImage:before {
-    content: '';
-    position: absolute;
-    background: url('../../../assets/depressed_man.webp') no-repeat center center/cover;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    border-radius: .5rem;
-  }
-
-  .HeroinProgramSectionCaption h3 {
-    font-size: 1rem;
-  }
-
-  .HeroinProgramSectionnCaption ul li {
-    list-style-type: disc;
-    color: #7f8c8d;
-  }
-  @media screen and (max-width: 940px) {
-    .HeroinProgramSection {
-        flex-wrap: wrap;
-    }
-
-    .HeroinProgramSectionImage {
-        height: 50dvh;
-      }
-
-  }
+}

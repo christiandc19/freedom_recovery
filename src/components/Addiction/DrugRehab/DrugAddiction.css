@@ -1,6 +1,5 @@
-
-.alcoholism-hero {
-    background-image: url('../../assets/alcoholism_hero.webp');
+.drug-addiction-hero {
+    background-image: url('../../../assets/closeup-on-human-hands-holding-red-and-blue_pill.webp');
     height: 50vh;
     width: 100%;
     background-size: cover;
@@ -8,7 +7,7 @@
     position: relative;
 }
 
-.alcoholism-hero::after {
+.drug-addiction-hero::after {
     content: '';
     position: absolute;
     top: 0;
@@ -17,7 +16,6 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.473);
     opacity: .6;
-    /* !!! */
     z-index: 1;
 }
 
@@ -36,57 +34,55 @@
     font-style: normal;
 }
 
-.alcoholism-flex {
+.drug-addiction-flex {
     display: flex;
     gap: 1rem;
     padding: 3rem 1rem;
 }
 
-.alcoholism-menu {
+.drug-addiction-menu {
     width: 50%;
 }
 
-.alcoholism-caption {
+.drug-addiction-caption {
     width: 100%;
     margin: auto;
 }
 
-
-.alcoholism-caption h1 {
+.drug-addiction-caption h1 {
     font-size: 1.3rem;
     text-transform: uppercase;
 }
 
-.alcoholism-caption h2 {
+.drug-addiction-caption h2 {
     font-size: 1.2rem;
     padding: .5rem 0;
 }
 
-.alcoholism-caption p {
+.drug-addiction-caption p {
     font-size: 1rem;
     padding: 0;
     line-height: normal;
 }
 
-.alcoholism-caption ul {
+.drug-addiction-caption ul {
     list-style: disc;
 }
 
-.alcoholism-image {
+.drug-addiction-image {
     width: 100%;
 }
 
-.alcoholism-image img {
-    width: 100%;
+.drug-addiction-image img {
+    width: 40%;
 }
-
 
 @media screen and (max-width: 940px) {
-    .alcoholism-flex {
+    .drug-addiction-flex {
         flex-wrap: wrap-reverse;
     }
 
-    .alcoholism-menu {
+    .drug-addiction-menu {
         width: 100%;
     }
 }
@@ -95,5 +91,9 @@
     .image-caption h1 {
         font-size: 2rem;
         line-height: normal;
+    }
+
+    .drug-addiction-image img {
+        width: 100%;
     }
 }
