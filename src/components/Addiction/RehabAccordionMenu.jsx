@@ -35,16 +35,10 @@ const RehabAccordionMenu = () => {
         style={{ maxHeight: isOpen ? contentRef.current?.scrollHeight + 'px' : '0' }}
       >
         <ul>
-          <li><Link to="/alcoholism" onClick={handleLinkClick}>Alcoholism</Link></li>
-          <li><Link to="/cocaine-addiction-treatment" onClick={handleLinkClick}>Cocaine Addiction</Link></li>
-          <li><Link to="/fentanyl-addiction-treatment" onClick={handleLinkClick}>Fentanyl Addiction</Link></li>
-          <li><Link to="/meth-addiction-treatment" onClick={handleLinkClick}>Meth Addiction</Link></li>
-          <li><Link to="/prescription-addiction-treatment" onClick={handleLinkClick}>Prescription Drug Addiction</Link></li>
-          <li><Link to="/kratom-addiction-treatment" onClick={handleLinkClick}>Kratom</Link></li>
-          <li><Link to="/cannabis-addiction-treatment" onClick={handleLinkClick}>Cannabis Addiction</Link></li>
-          <li><Link to="/benzo-addiction-treatment" onClick={handleLinkClick}>Benzo Addiction</Link></li>
-          <li><Link to="/painkiller-addiction-treatment" onClick={handleLinkClick}>Painkiller Addiction</Link></li>
-          <li><Link to="/inhalant-addiction-treatment" onClick={handleLinkClick}>Inhalant Addiction</Link></li>
+          <li><Link to="/drug-addiction-treatment" onClick={handleLinkClick}>Drug Addiction Rehab</Link></li>
+          <li><Link to="/heroin-program" onClick={handleLinkClick}>Heroin</Link></li>
+          <li><Link to="/xanax-rehab" onClick={handleLinkClick}>Xanax Addiction</Link></li>
+          <li><Link to="/ativan-rehab" onClick={handleLinkClick}>Ativan</Link></li>
         </ul>
       </div>
     </div>

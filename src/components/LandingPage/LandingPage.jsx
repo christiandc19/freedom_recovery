@@ -3,7 +3,7 @@ import './LandingPage.css'
 
 import ContactForm from '../LandingPage/ContactForm'
 import Insurance from './Insurance'
-
+import Services from './Services'
 
 import RectBlock from './RectBlock'
 import Offer from './Offer'
@@ -31,6 +31,7 @@ const Hero = () => {
 <Offer />
 <AccordionProps />
 <Insurance />
+<Services />
 <ContactForm />
 </>
 

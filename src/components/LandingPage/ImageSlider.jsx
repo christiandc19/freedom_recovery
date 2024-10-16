@@ -99,7 +99,7 @@ const ImageSlider = () => {
 
   return (
     <div className="slider-container container">
-      <h1>Our Therapies</h1>
+      <h1>Program Options</h1>
       <button
         className="arrow left-arrow"
         onClick={handleScrollLeft}
