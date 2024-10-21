@@ -7,10 +7,10 @@ const InpatientRehabSection = () => {
   return (
     <div className="inpatientRehab-container">
       <section className="intro-section">
-        <h1>Comprehensive Inpatient Drug Rehab Program at Antioch Rehab Center
+        <h1>Comprehensive Inpatient Drug Rehab Program at Freedom Recovery Center
         </h1>
         <p>
-        At Antioch Rehab Center, we provide a holistic and evidence-based Inpatient Drug Rehab Program designed to support individuals on their journey to long-term recovery from drug addiction. Our inpatient program ensures a safe, structured, and supportive environment where patients can focus entirely on their healing, free from external triggers and distractions.
+        At Freedom Recovery Center, we provide a holistic and evidence-based Inpatient Drug Rehab Program designed to support individuals on their journey to long-term recovery from drug addiction. Our inpatient program ensures a safe, structured, and supportive environment where patients can focus entirely on their healing, free from external triggers and distractions.
         </p>
       </section>
 
@@ -49,7 +49,7 @@ const InpatientRehabSection = () => {
             <p>3. Safe and Supportive Environment <br />Our inpatient facility provides a peaceful, secure environment conducive to healing and growth.</p>
             <p>4. Comprehensive Care  <br />We address both addiction and mental health, ensuring a full spectrum of care for lasting recovery.</p><br />
             <h2>Start Your Recovery Today</h2>
-            <p>At Antioch Rehab Center, we’re committed to helping individuals break free from the chains of drug addiction and rebuild their lives. If you or a loved one is struggling with addiction, our Inpatient Drug Rehab Program can provide the support and treatment necessary for a fresh start.</p>
+            <p>At Freedom Recovery Center, we’re committed to helping individuals break free from the chains of drug addiction and rebuild their lives. If you or a loved one is struggling with addiction, our Inpatient Drug Rehab Program can provide the support and treatment necessary for a fresh start.</p>
 
           </div>
         <div className="inpatientRehab-program-image imageTwo-bg">

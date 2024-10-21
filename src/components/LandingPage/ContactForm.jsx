@@ -27,6 +27,12 @@ const ContactForm = () => {
         e.target.reset();
     };
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' }); // Smoothly scroll to the top
+      };
+
+
+
     return (
         <div className="contactForm">
 
@@ -37,7 +43,7 @@ const ContactForm = () => {
             <div className="contactFormHeader contact2-container ">
                 <div className="container">
                 <h1>Start Your Recovery Today</h1>
-                <p>If you or someone you love is struggling with both mental health and substance use disorders, don’t wait. Contact Antioch Rehab Center to learn more about our dual diagnosis treatment program and take the first step towards a healthier, addiction-free life.</p>
+                <p>If you or someone you love is struggling with both mental health and substance use disorders, don’t wait. Contact Freedom Recovery Center to learn more about our dual diagnosis treatment program and take the first step towards a healthier, addiction-free life.</p>
                 <i><p>We'll keep your contact information strictly confidential.</p></i>
                 </div>
             </div>
@@ -108,10 +114,9 @@ const ContactForm = () => {
                                     ></textarea>
 
                             <div className="disclaimer">
-                              <p>Antioch Rehab needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our  
-                              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                                  <Link to="/privacy-policy"><span> Privacy Policy </span></Link>
-                              </LinkRoll></p>
+                              <p>Freedom Recovery needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at any time. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, please review our  
+                                  <Link to="/privacy-policy" onClick={scrollToTop}><span> Privacy Policy </span></Link>
+                              </p>
                             </div>
 
 

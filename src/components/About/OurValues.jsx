@@ -10,7 +10,7 @@ const OurValues = () => {
         <div className='ourValuesFlexCaption'>
 
           <h1>About Us</h1>
-          <p>At Antioch Rehab, we are dedicated to providing compassionate and comprehensive care for individuals struggling with addiction and mental health challenges. Our mission is to empower every client with the tools and support necessary to reclaim their lives and achieve lasting recovery. We believe in a holistic approach, blending evidence-based therapies, personalized treatment plans, and a nurturing environment to address the physical, emotional, and psychological aspects of recovery.</p>
+          <p>At Freedom Recovery, we are dedicated to providing compassionate and comprehensive care for individuals struggling with addiction and mental health challenges. Our mission is to empower every client with the tools and support necessary to reclaim their lives and achieve lasting recovery. We believe in a holistic approach, blending evidence-based therapies, personalized treatment plans, and a nurturing environment to address the physical, emotional, and psychological aspects of recovery.</p>
 
           <h1>Our Values</h1>
           <ul>

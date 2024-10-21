@@ -9,7 +9,7 @@ const VeteransAddictionSection = () => {
       <section className="intro-section">
         <h1>Veterans Addiction Treatment Program</h1>
         <p>
-        At Antioch Rehab, we are deeply committed to supporting veterans in their journey to recovery from addiction. Veterans often face unique challenges, including the psychological impact of combat, the stress of reintegrating into civilian life, and the emotional burden of unresolved trauma. These struggles can make veterans more vulnerable to substance use disorders, which is why our Veterans Addiction Treatment Program is specifically designed to meet their needs with respect, compassion, and understanding.
+        At Freedom Recovery, we are deeply committed to supporting veterans in their journey to recovery from addiction. Veterans often face unique challenges, including the psychological impact of combat, the stress of reintegrating into civilian life, and the emotional burden of unresolved trauma. These struggles can make veterans more vulnerable to substance use disorders, which is why our Veterans Addiction Treatment Program is specifically designed to meet their needs with respect, compassion, and understanding.
         </p>
       </section>
 
@@ -23,7 +23,7 @@ const VeteransAddictionSection = () => {
 
         <div className="veteransAddiction-program-content">
           <h2>Our Tailored Approach to Veterans Care</h2>
-          <p>At Antioch Rehab, we recognize that veterans require more than just a traditional addiction treatment program. Our comprehensive approach addresses the underlying issues that often contribute to addiction, such as Post-Traumatic Stress Disorder (PTSD), anxiety, depression, and chronic pain. Our team of licensed professionals, including addiction specialists, therapists, and counselors, is experienced in working with veterans and is dedicated to providing personalized care that promotes long-term recovery.</p>
+          <p>At Freedom Recovery, we recognize that veterans require more than just a traditional addiction treatment program. Our comprehensive approach addresses the underlying issues that often contribute to addiction, such as Post-Traumatic Stress Disorder (PTSD), anxiety, depression, and chronic pain. Our team of licensed professionals, including addiction specialists, therapists, and counselors, is experienced in working with veterans and is dedicated to providing personalized care that promotes long-term recovery.</p>
           <h3>Key Elements of Our Veterans Program:</h3>
           <p>
             <ol>
@@ -47,13 +47,13 @@ const VeteransAddictionSection = () => {
         <div className="veteransAddiction-program-content">
 
         <h2>A Strong Support System for Veterans</h2>
-        <p>At Antioch Rehab, we understand that the transition back to civilian life can be overwhelming, especially for veterans who have served in combat zones or faced extreme stress during their military careers. Our program is designed to create a strong support network that veterans can rely on throughout their recovery journey. From peer-to-peer support to connecting veterans with mentors who have walked the same path, we foster an environment of solidarity and mutual respect.</p>
+        <p>At Freedom Recovery, we understand that the transition back to civilian life can be overwhelming, especially for veterans who have served in combat zones or faced extreme stress during their military careers. Our program is designed to create a strong support network that veterans can rely on throughout their recovery journey. From peer-to-peer support to connecting veterans with mentors who have walked the same path, we foster an environment of solidarity and mutual respect.</p>
 
         <h2>Collaboration with VA Healthcare</h2>
         <p>We partner with Veterans Affairs (VA) healthcare systems to ensure that our program aligns with VA benefits and services, making it easier for veterans to access care. By working in conjunction with VA medical centers, we offer veterans a seamless transition from VA care to our specialized addiction treatment program, ensuring continuity in their recovery journey.</p>
 
         <h2>Commitment to Serving Those Who Served</h2>
-        <p>At Antioch Rehab, we are honored to provide a safe space for veterans to heal, recover, and rebuild their lives. Our veterans addiction treatment program is more than just a pathway to sobriety—it’s a comprehensive system of care designed to restore hope, improve mental and physical health, and empower veterans to lead fulfilling, substance-free lives.</p>
+        <p>At Freedom Recovery, we are honored to provide a safe space for veterans to heal, recover, and rebuild their lives. Our veterans addiction treatment program is more than just a pathway to sobriety—it’s a comprehensive system of care designed to restore hope, improve mental and physical health, and empower veterans to lead fulfilling, substance-free lives.</p>
 
 
 

@@ -1,5 +1,5 @@
 .xanax-rehab-hero {
-  background-image: url('../../../assets/meth_hero.jpeg'); /* Replace with actual image path */
+  background-image: url('../../../assets/meth_hero.webp'); /* Replace with actual image path */
   height: 50vh;
   width: 100%;
   background-size: cover;
@@ -74,7 +74,7 @@
 }
 
 .xanax-rehab-image img {
-  width: 40%;
+  width: 100%;
 }
 
 @media screen and (max-width: 940px) {

@@ -7,10 +7,10 @@ const DetoxProgramSection = () => {
   return (
     <div className="detox-section-container">
       <section className="detox-intro-section">
-        <h1>Drug Detox Program at Antioch Rehab Center
+        <h1>Drug Detox Program at Freedom Recovery Center
         </h1>
         <p>
-        At Antioch Rehab Center, our Drug Detox Program provides a medically supervised and compassionate environment for individuals looking to break free from substance addiction. Detox is the critical first step in the recovery process, focusing on safely managing withdrawal symptoms while preparing the body and mind for long-term treatment.
+        At Freedom Recovery Center, our Drug Detox Program provides a medically supervised and compassionate environment for individuals looking to break free from substance addiction. Detox is the critical first step in the recovery process, focusing on safely managing withdrawal symptoms while preparing the body and mind for long-term treatment.
         </p>
       </section>
 

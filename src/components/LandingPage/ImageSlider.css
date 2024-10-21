@@ -7,10 +7,18 @@
   }
   
   .slider-container h1 {
-    text-align: right;
+    text-align: center;
     font-size: 1.5rem;
     text-transform: uppercase; 
-    padding: 1rem;
+    padding-top: 1rem;
+    letter-spacing: 2px;
+    color: #cd8c63;
+  }
+
+  .slider-container hr {
+    width: 10%;
+    margin-bottom: 1rem;
+    border: 1px solid #cd8c6365;
   }
   
   .slider {
@@ -84,6 +92,11 @@
   /* Media queries for responsiveness */
 
   @media (max-width: 940px) {
+
+    .slider-container hr {
+      width: 15%;
+    }
+
     .slider-container h1 {
       text-align: center;
     }
@@ -101,6 +114,10 @@
 
     .slider-item {
       border-right: none;
+    }
+
+    .slider-container hr {
+      width: 30%;
     }
   
 

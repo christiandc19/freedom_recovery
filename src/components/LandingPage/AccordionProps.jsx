@@ -32,7 +32,7 @@ function AccordionProps() {
     },
     {
       title: 'Evidence-Based Treatment Methods',
-      content: 'Antioch Rehab employs evidence-based treatment methods such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and Medication-Assisted Treatment (MAT). These approaches have been scientifically proven to aid in both addiction recovery and mental health management.'
+      content: 'Freedom Recovery employs evidence-based treatment methods such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and Medication-Assisted Treatment (MAT). These approaches have been scientifically proven to aid in both addiction recovery and mental health management.'
     }
   ];
 

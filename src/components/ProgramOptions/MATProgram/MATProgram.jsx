@@ -7,7 +7,7 @@ const MATProgram = () => {
       <section className="mat-intro">
         <h1>Medication-Assisted Treatment (MAT) for Addiction Recovery</h1>
         <p>
-          At Antioch Rehab Center, our Medication-Assisted Treatment (MAT) program combines FDA-approved medications with counseling and behavioral therapies to provide a comprehensive approach to substance use disorder recovery. MAT is a proven method for managing opioid and alcohol dependence, helping individuals achieve long-term sobriety.
+          At Freedom Recovery Center, our Medication-Assisted Treatment (MAT) program combines FDA-approved medications with counseling and behavioral therapies to provide a comprehensive approach to substance use disorder recovery. MAT is a proven method for managing opioid and alcohol dependence, helping individuals achieve long-term sobriety.
         </p>
       </section>
 
@@ -31,7 +31,7 @@ const MATProgram = () => {
       <section className="mat-therapy">
         <h2>Combining Medication with Therapy</h2>
         <p>
-          MAT is most effective when paired with counseling and behavioral therapies. At Antioch Rehab Center, we offer individualized therapy sessions, group therapy, and cognitive-behavioral therapy (CBT) to address the psychological and behavioral aspects of addiction. This comprehensive approach helps individuals build healthy coping mechanisms and long-term recovery strategies.
+          MAT is most effective when paired with counseling and behavioral therapies. At Freedom Recovery Center, we offer individualized therapy sessions, group therapy, and cognitive-behavioral therapy (CBT) to address the psychological and behavioral aspects of addiction. This comprehensive approach helps individuals build healthy coping mechanisms and long-term recovery strategies.
         </p>
       </section>
 
@@ -50,7 +50,7 @@ const MATProgram = () => {
       <section className="mat-cta">
         <h2>Start Your Recovery with MAT</h2>
         <p>
-          At Antioch Rehab Center, our dedicated team of medical professionals is here to guide you through every step of the Medication-Assisted Treatment process. If you or a loved one is struggling with addiction, contact us today to learn more about how MAT can help you achieve lasting recovery.
+          At Freedom Recovery Center, our dedicated team of medical professionals is here to guide you through every step of the Medication-Assisted Treatment process. If you or a loved one is struggling with addiction, contact us today to learn more about how MAT can help you achieve lasting recovery.
         </p>
       </section>
     </div>

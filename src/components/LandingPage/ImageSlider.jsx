@@ -18,7 +18,7 @@ const ImageSlider = () => {
     { src: Dual_Diagnosis, header: 'Dual Diagnosis', link: "/dual-diagnosis-program" },
     { src: MAT, header: 'Medication Assisted Therapy', link: "/medication-assisted-program" },
     { src: Outpatient_Rehab, header: 'Outpatient', link: "/outpatient-rehab" },
-    { src: Inpatient_Rehab, header: 'Inpatient', link: "/medication-assisted-program" },
+    { src: Inpatient_Rehab, header: 'Inpatient', link: "/inpatient-rehab" },
   ];
 
   // Create an extended array for seamless looping
@@ -93,13 +93,14 @@ const ImageSlider = () => {
     };
   }, [currentIndex]);
 
-  const handleLinkClick = () => {
-    window.scrollTo(0, 0); // Scroll to the top of the page
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smoothly scroll to the top
   };
 
   return (
     <div className="slider-container container">
       <h1>Program Options</h1>
+      <hr />
       <button
         className="arrow left-arrow"
         onClick={handleScrollLeft}
@@ -111,7 +112,7 @@ const ImageSlider = () => {
       <div className="slider" ref={sliderRef}>
         {imagesExtended.map((image, index) => (
           <div key={index} className="slider-item">
-            <Link to={image.link} onClick={handleLinkClick}>
+            <Link to={image.link} onClick={scrollToTop}>
               <img src={image.src} alt={`Slide ${index + 1}`} />
             </Link>
             <div className="slider-header">{image.header}</div>

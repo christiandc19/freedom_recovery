@@ -30,6 +30,10 @@ import BenzoAddictionTreatment from './components/WhatWeTreat/BenzoAddiction'
 import PainkillerAddictionTreatment from './components/WhatWeTreat/PainkillerAddiction'
 import InhalantAddictionTreatment from './components/WhatWeTreat/InhalantAddiction'
 
+
+import PrivacyPolicy from './components/privacyPolicy/PrivacyPolicy';
+
+
 const App = () => {
   return (
     <Router>
@@ -60,6 +64,9 @@ const App = () => {
         <Route path="/benzo-addiction-treatment" element={<BenzoAddictionTreatment />} />
         <Route path="/painkiller-addiction-treatment" element={<PainkillerAddictionTreatment />} />
         <Route path="/inhalant-addiction-treatment" element={<InhalantAddictionTreatment />} />
+
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
 
       </Routes>
       <Footer />

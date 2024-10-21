@@ -2,15 +2,15 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 3rem 1rem;
   font-family: Arial, sans-serif;
 }
 
 .dual-diagnosis-container h1 {
   font-size: 1.5rem;
-  color: #2e7d32;
+  color: #0f0f0f;
   text-align: center;
-  margin-bottom: 20px;
+  line-height: normal;
 }
 
 .dual-diagnosis-container p {
@@ -19,13 +19,14 @@
 }
 
 .dual-diagnosis-container h2 {
-  font-size: 1.5rem;
-  color: #388e3c;
-  margin-bottom: 15px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #252725;
+  font-weight: normal;
 }
 
 .intro-text, p {
-  font-size: 1.2rem;
+  font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
 }

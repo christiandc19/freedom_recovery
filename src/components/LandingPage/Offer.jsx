@@ -10,6 +10,11 @@ import { FaHouseChimneyMedical } from "react-icons/fa6";
 import './Offer.css'
 
 const Offer = () => {
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' }); // Smoothly scroll to the top
+      };
+
   return (
     <div className='offer'>
         <div className='offerContent'>
@@ -29,13 +34,13 @@ const Offer = () => {
                             </div>
                             <div className='iconText borderBtm'>
                                 <h2>Drug Addiction Treatment</h2>
-                                <p>At Antioch Rehab, we offer specialized drug addiction treatment programs designed to help individuals break free from the cycle of substance abuse and reclaim their lives. Our compassionate, evidence-based approach ensures each client receives personalized care tailored to their unique recovery journey. <span><LinkRoll
+                                <p>At Freedom Recovery, we offer specialized drug addiction treatment programs designed to help individuals break free from the cycle of substance abuse and reclaim their lives. Our compassionate, evidence-based approach ensures each client receives personalized care tailored to their unique recovery journey. <span><LinkRoll
                                 activeClass="active"
                                 to="top"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                ><Link to="/drug-addiction-treatment" >Learn More</Link></LinkRoll></span></p>
+                                ><Link to="/drug-addiction-treatment" onClick={scrollToTop}>Learn More</Link></LinkRoll></span></p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +59,7 @@ const Offer = () => {
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                ><Link to="/heroin-program" >Learn More</Link></LinkRoll></span></p>
+                                ><Link to="/heroin-program" onClick={scrollToTop}>Learn More</Link></LinkRoll></span></p>
                             </div>
                         </div>
                     </div>
@@ -67,13 +72,13 @@ const Offer = () => {
                             </div>
                             <div className='iconText borderBtm'>
                                 <h2>Xanax Addiction Treatment</h2>
-                                <p>Xanax addiction can develop quickly, leading to physical dependence and severe withdrawal symptoms when attempting to quit. At Antioch Rehab, we offer a comprehensive, medically supervised treatment program designed to safely guide individuals through detox and provide the tools needed for long-term recovery. <span><LinkRoll
+                                <p>Xanax addiction can develop quickly, leading to physical dependence and severe withdrawal symptoms when attempting to quit. At Freedom Recovery, we offer a comprehensive, medically supervised treatment program designed to safely guide individuals through detox and provide the tools needed for long-term recovery. <span><LinkRoll
                                 activeClass="active"
                                 to="top"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                ><Link to="/xanax-rehab" >Learn More</Link></LinkRoll></span></p>
+                                ><Link to="/xanax-rehab" onClick={scrollToTop}>Learn More</Link></LinkRoll></span></p>
                             </div>
                         </div>
                     </div>
@@ -85,13 +90,13 @@ const Offer = () => {
                             </div>
                             <div className='iconText borderBtm'>
                                 <h2>Ativan Addiction Treatment</h2>
-                                <p>Ativan addiction can quickly develop due to its potent effects on the central nervous system, often leading to physical and psychological dependence. At Antioch Rehab, we provide specialized, compassionate treatment to help individuals safely overcome Ativan addiction and achieve lasting recovery. <span><LinkRoll
+                                <p>Ativan addiction can quickly develop due to its potent effects on the central nervous system, often leading to physical and psychological dependence. At Freedom Recovery, we provide specialized, compassionate treatment to help individuals safely overcome Ativan addiction and achieve lasting recovery. <span><LinkRoll
                                 activeClass="active"
                                 to="top"
                                 spy={true}
                                 smooth={true}
                                 duration={500}
-                                ><Link to="/ativan-rehab" >Learn More</Link></LinkRoll></span></p>
+                                ><Link to="/ativan-rehab"onClick={scrollToTop} >Learn More</Link></LinkRoll></span></p>
                             </div>
                         </div>
                     </div>

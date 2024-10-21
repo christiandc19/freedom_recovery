@@ -10,7 +10,7 @@ const OutpatientRehabSection = () => {
         <h1>Outpatient Drug Rehab Program
         </h1>
         <p>
-        At Antioch Rehab Center, our Outpatient Drug Rehab Program offers a comprehensive, flexible treatment approach for individuals seeking recovery from drug addiction while maintaining their everyday responsibilities. This program is designed to provide intensive support, therapy, and education without the need for full-time residential care.
+        At Freedom Recovery Center, our Outpatient Drug Rehab Program offers a comprehensive, flexible treatment approach for individuals seeking recovery from drug addiction while maintaining their everyday responsibilities. This program is designed to provide intensive support, therapy, and education without the need for full-time residential care.
         </p>
       </section>
 
@@ -50,8 +50,8 @@ const OutpatientRehabSection = () => {
             <p>4. Family Therapy:  <br />We address both addiction and mental health, ensuring a full spectrum of care for lasting recovery.</p>
             <p>5. Relapse Prevention Education:  <br />Involving family members in the healing process can improve communication and create a supportive environment for recovery.</p>
             <p>6. Holistic Approaches:  <br />Incorporating practices such as meditation, yoga, and mindfulness to support mental and emotional well-being during recovery.</p>
-            <h2>Why Choose Antioch Rehab Center?</h2>
-            <p>At Antioch Rehab Center, we believe that everyone’s journey to recovery is unique. Our outpatient program is designed to meet individuals where they are in their recovery, offering personalized care and a supportive environment. Our dedicated team of experienced professionals is committed to helping individuals achieve lasting sobriety and rebuild their lives.</p>
+            <h2>Why Choose Freedom Recovery Center?</h2>
+            <p>At Freedom Recovery Center, we believe that everyone’s journey to recovery is unique. Our outpatient program is designed to meet individuals where they are in their recovery, offering personalized care and a supportive environment. Our dedicated team of experienced professionals is committed to helping individuals achieve lasting sobriety and rebuild their lives.</p>
 
           </div>
         <div className="outpatientRehab-program-image OutpatientTwo-bg">
