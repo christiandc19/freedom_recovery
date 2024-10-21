@@ -41,7 +41,7 @@ const Services = () => {
                     </div>
 
                     <div className='servicesCard' onClick={scrollToTop}>
-                        <Link to="/meth-addiction-treatment">
+                        <Link to="/fentanyl-addiction-treatment">
                         <img src={Mental_Health_Disorder} alt='Image' loading='lazy' />
                         <h1>Fentanyl Addiction</h1>
                         <p>As California’s premier Los Angeles drug rehab,
